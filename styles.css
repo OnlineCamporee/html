@@ -18,10 +18,11 @@ h1 {
 }
 
 .box {
-    margin: 50px;
+    margin: auto;
     background-color: white;
     border-radius: 25px;
     overflow: hidden;
+    max-width: 700px;
 }
 
 .footer {
