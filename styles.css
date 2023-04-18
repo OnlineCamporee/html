@@ -14,9 +14,23 @@ body {
     text-align: center;
 }
 
-h1 {
+.center h1 {
+    margin: auto;
+    color: white;
+}
+
+.box h1 {
+    margin: auto;
     color: black;
-    margin: 20px;
+}
+
+h2 {
+    color: black;
+}
+
+h3 {
+    margin: auto;
+    color: black;
 }
 
 .center {
@@ -36,13 +50,23 @@ h1 {
 }
 
 .box {
-    display: flex;
     margin: auto;
+    padding: 20px;
     background-color: white;
     border-radius: 25px;
     overflow: hidden;
     max-width: 700px;
     margin-top: 25px;
+    text-align: center;
+    display: grid;
+}
+
+.event_logo {
+    margin: auto;
+}
+
+small {
+    margin-top: 10px;
 }
 
 .footer {
@@ -51,6 +75,6 @@ h1 {
     vertical-align: bottom;
 }
 
-a {
+.footer a {
     color: gainsboro
 }
