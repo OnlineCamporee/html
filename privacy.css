@@ -3,15 +3,16 @@ html {
 }
 
 body {
+    font-family: 'Source Sans Pro';
+    height: 100%;
+}
+
+.web {
     background-image: url('img/bg-camponline2019.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     min-height: 320px;
-    font-family: 'Source Sans Pro';
-    text-align: center;
-    height: 100%;
-    text-align: center;
 }
 
 .logo {
