@@ -50,7 +50,7 @@ h3 {
 .center img {
     display: flex;
     max-width: 256px;
-    max-height: 256px;
+    max-height: 500px;
 }
 
 .box {
