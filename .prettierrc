@@ -1,0 +1,28 @@
+{
+  "printWidth": 100,
+  "tabWidth": 2,
+  "useTabs": false,
+  "overrides": [
+    {
+      "files": "*.html",
+      "options": {
+        "bracketSameLine": true,
+        "htmlWhitespaceSensitivity": "strict"
+      }
+    },
+    {
+      "files": "*.css",
+      "options": {
+        "bracketSameLine": true
+      }
+    },
+    {
+      "files": "*.md",
+      "options": { "proseWrap": "always", "printWidth": 80 }
+    },
+    {
+      "files": ".prettierrc",
+      "options": { "parser": "json" }
+    }
+  ]
+}
